@@ -1,4 +1,4 @@
-API_KEY = "your_binance_api_key"
-API_SECRET = "your_binance_api_secret"
+API_KEY = "0KgTAI3b1zcqI7W5Mma3XlTfMBi16zrlP7ilUVJSrSaP6lvCUpuaQE60Espuuzs8"
+API_SECRET = "LN29Zd7hYDKADENaHG3fVUBYpQLK2NL0xGG3xlENqJBMZJOzRl1jZxJdLVN7MAOq"
 SYMBOL = "BTCUSDT"
-INTERVAL = "1m"  # Can be '1m', '3m', '5m', etc.
+INTERVAL = "3m"  # Can be '1m', '3m', '5m', etc.
