@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trading Bot Signal</title>
+    <style>
+        .buy { color: green; }
+        .sell { color: red; }
+        .hold { color: gray; }
+    </style>
+</head>
+<body>
+    <h1>Current Signal: 
+        <span class="{{ signal.lower() }}">{{ signal }}</span>
+    </h1>
+    <h2>Recent Candles</h2>
+    {{ tables|safe }}
+</body>
+</html>
