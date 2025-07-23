@@ -1,6 +1,8 @@
 trading_bot/
-├── app.py               # Flask app
-├── bot_logic.py         # Trading logic
+├── app.py
+├── bot_logic.py
+├── config.py
 ├── templates/
-│   └── index.html       # Web dashboard
-└── config.py            # API keys
+│   └── index.html
+├── requirements.txt
+└── Procfile
