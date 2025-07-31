@@ -24,7 +24,7 @@ def check_signal(df):
     else:
         return 'HOLD'
 
-def place_order(signal, quantity=0.001):
+def place_order(signal, quantity=0.00011):
     if signal == 'BUY':
         return client.order_market_buy(symbol=SYMBOL, quantity=quantity)
     elif signal == 'SELL':
