@@ -12,7 +12,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Get shutdown time from .env or fallback
-SHUTDOWN_TIME = os.getenv("AUTO_SHUTDOWN_TIME", "15:20")  # e.g., "23:00"
+SHUTDOWN_TIME = os.getenv("AUTO_SHUTDOWN_TIME", "19:45")  # e.g., "23:00"
 
 @app.route('/')
 def index():
